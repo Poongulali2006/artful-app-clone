@@ -13,14 +13,15 @@ const Hero = () => {
               <span className="text-lg">Hi, I'm</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold">
-              Your Name
-              <span className="block mt-2 text-gradient">Professional Title</span>
+              Poongulali G
+              <span className="block mt-2 text-gradient">Cybersecurity & AI Enthusiast</span>
             </h1>
             <div className="relative">
               <div className="absolute -left-4 top-0 w-1 h-full bg-accent" />
               <p className="text-lg text-muted-foreground pl-8">
-                Description of your expertise and what you do. Add your unique value proposition
-                and what makes you stand out in your field.
+                Motivated Information Technology student passionate about cybersecurity, artificial intelligence, 
+                and cloud technologies. Building intelligent, secure systems that create safer digital spaces. 
+                Combining technical competence with creativity and lifelong learning.
               </p>
             </div>
 
@@ -29,19 +30,23 @@ const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me</span>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/poongulali-g"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full border border-accent/30 flex items-center justify-center hover:bg-accent/10 hover:border-accent transition-all"
                 >
                   <Linkedin size={18} className="text-accent" />
                 </a>
                 <a
-                  href="#"
+                  href="mailto:poongulali2006@gmail.com"
                   className="w-10 h-10 rounded-full border border-accent/30 flex items-center justify-center hover:bg-accent/10 hover:border-accent transition-all"
                 >
-                  <Twitter size={18} className="text-accent" />
+                  <Mail size={18} className="text-accent" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/poongulali"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full border border-accent/30 flex items-center justify-center hover:bg-accent/10 hover:border-accent transition-all"
                 >
                   <Github size={18} className="text-accent" />

@@ -2,21 +2,25 @@ import { Card } from "@/components/ui/card";
 
 const About = () => {
   const stats = [
-    { number: "3+", label: "Years Experience" },
-    { number: "5+", label: "Projects Completed" },
+    { number: "8.38", label: "CGPA" },
+    { number: "2023-27", label: "B.Tech IT" },
     { number: "2+", label: "Awards Won" },
-    { number: "10+", label: "Certifications" },
+    { number: "3+", label: "Major Projects" },
   ];
 
   const expertise = [
-    "Skill 1",
-    "Skill 2",
-    "Skill 3",
-    "Skill 4",
-    "Skill 5",
-    "Skill 6",
-    "Skill 7",
-    "Skill 8",
+    "Penetration Testing",
+    "Ethical Hacking",
+    "Cloud Security",
+    "Python",
+    "JavaScript",
+    "React Native",
+    "Metasploit",
+    "Wireshark",
+    "Kali Linux",
+    "Burp Suite",
+    "TensorFlow",
+    "Full-stack Development",
   ];
 
   return (
@@ -32,15 +36,19 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="space-y-6 animate-fade-in">
             <h3 className="text-3xl font-bold text-gradient-purple">
-              Professional Title & Role
+              IT Student & Security-Minded Developer
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Write your professional summary here. Describe your experience, expertise, and what
-              drives you in your field. Share your educational background and current pursuits.
+              I'm a motivated and detail-oriented Information Technology student passionate about cyber security, 
+              artificial intelligence, and cloud technologies. I love building intelligent, secure systems that 
+              create safer digital spaces for everyone. With hands-on experience in penetration testing, ethical 
+              hacking, and Full-stack development, I enjoy translating complex problems into pragmatic, actionable solutions.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Add more details about your work, internships, or projects. Highlight what makes you
-              unique and your professional goals.
+              Currently pursuing B.Tech in Information Technology at K.S.Rangasamy College Of Technology, Tiruchengode 
+              (CGPA: 8.38). Acknowledged for leadership, innovative thinking, and collaboration, I combine technical 
+              competence, creativity, and devotion to lifelong learning as I continue to grow and contribute positively 
+              to the future of technology.
             </p>
           </div>
 

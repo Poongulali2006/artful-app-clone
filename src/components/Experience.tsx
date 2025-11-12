@@ -6,31 +6,33 @@ const Experience = () => {
   const experiences = [
     {
       type: "work",
-      title: "Job Title",
-      company: "Company Name",
-      period: "Jan 2024 - Present",
-      location: "Location",
-      description: "Brief description of your role and responsibilities.",
+      title: "Cloud Security Intern",
+      company: "Zscaler Technologies",
+      period: "May 2023 - July 2023",
+      location: "AICTE-Eduskills Program",
+      description: "Led optimization of cloud security settings and policies, reducing operational costs while maintaining robust protection.",
       achievements: [
-        "Achievement or responsibility 1",
-        "Achievement or responsibility 2",
-        "Achievement or responsibility 3",
+        "Optimized cloud security settings and policies at Zscaler, reducing operational costs while maintaining robust company protection",
+        "Streamlined security processes by automating policy enforcement and accelerating incident response",
+        "Managed a diverse team to deliver a complex cloud security solution on time and within budget",
+        "Ensured seamless integration with existing company systems",
       ],
-      technologies: ["Tech 1", "Tech 2", "Tech 3"],
+      technologies: ["Cloud Security", "Policy Enforcement", "Incident Response", "Team Management"],
     },
     {
       type: "education",
-      title: "Degree Program",
-      company: "Institution Name",
-      period: "Year - Year",
-      location: "Location",
-      description: "Your degree and area of focus.",
+      title: "Bachelor of Technology - Information Technology",
+      company: "K.S.Rangasamy College Of Technology",
+      period: "2023 - 2027",
+      location: "Tiruchengode",
+      description: "Pursuing B.Tech with CGPA of 8.38, focusing on cybersecurity and software development.",
       achievements: [
-        "Academic achievement 1",
-        "Project or competition 2",
-        "Relevant coursework 3",
+        "Winner Position in DevSpark – DevForge 24-hour Hackathon conducted by IEEE CS SYP",
+        "Awarded Best NSS Volunteer on the 31st Annual Day for outstanding social service and leadership",
+        "Coordinator of Zita Student Association (Jan-Jul 2025)",
+        "Relevant Coursework: Data Structures & Algorithms, Operating Systems, DBMS, Software Engineering",
       ],
-      technologies: ["Subject 1", "Subject 2", "Subject 3"],
+      technologies: ["Data Structures", "Operating Systems", "DBMS", "Software Engineering"],
     },
   ];
 
@@ -110,21 +112,36 @@ const Experience = () => {
         {/* Certifications */}
         <div className="mt-16 max-w-4xl mx-auto animate-fade-in">
           <h3 className="text-2xl font-bold mb-8 text-center">
-            Professional <span className="text-gradient">Certifications</span>
+            Positions of <span className="text-gradient">Responsibility</span>
           </h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((cert) => (
-              <Card
-                key={cert}
-                className="glass-effect p-6 text-center hover:border-accent/50 hover:scale-105 transition-all"
-              >
-                <div className="text-4xl mb-3">🏆</div>
-                <h4 className="font-bold text-foreground mb-2">Certification Name</h4>
-                <p className="text-sm text-muted-foreground mb-1">Issuing Organization</p>
-                <p className="text-xs text-accent">Year</p>
-              </Card>
-            ))}
-          </div>
+          <Card className="glass-effect p-6 hover:border-accent/50 transition-all">
+            <div className="flex gap-4">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
+                  <div className="text-accent text-2xl">🎯</div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <div>
+                    <h4 className="text-xl font-bold text-foreground">Coordinator</h4>
+                    <p className="text-accent">Zita Student Association</p>
+                  </div>
+                  <p className="text-sm text-muted-foreground">Jan 2025 - Jul 2025</p>
+                </div>
+                <ul className="list-none space-y-2">
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="text-accent mt-1">▸</span>
+                    <span>Organized and ran several Hackathons, guest lectures, and department sessions for the Zita Student Association</span>
+                  </li>
+                  <li className="text-sm text-muted-foreground flex items-start gap-2">
+                    <span className="text-accent mt-1">▸</span>
+                    <span>Managed event logistics and guided peers to create a supportive and inspiring learning atmosphere</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Card>
         </div>
       </div>
     </section>
