@@ -15,12 +15,11 @@ const About = () => {
     "Python",
     "JavaScript",
     "React Native",
+    "Frontend Developer",
     "Metasploit",
     "Wireshark",
     "Kali Linux",
     "Burp Suite",
-    "TensorFlow",
-    "Full-stack Development",
   ];
 
   return (

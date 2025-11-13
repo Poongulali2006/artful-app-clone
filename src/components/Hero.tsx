@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
   return (
@@ -68,8 +69,8 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-secondary/20 rounded-full blur-3xl animate-glow" />
               <div className="relative w-80 h-80 rounded-full border-4 border-accent/30 overflow-hidden animate-float">
                 <img
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
-                  alt="Profile"
+                  src={profileImage}
+                  alt="Poongulali G - Cybersecurity & AI Enthusiast"
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -19,19 +19,6 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1563986768609-322da13575f3",
     },
     {
-      title: "Cloud Security Optimization",
-      category: "Cloud Security",
-      description: "Led optimization project at Zscaler Technologies for cloud security settings and policies.",
-      features: [
-        "Reduced operational costs while maintaining robust security protection",
-        "Automated policy enforcement for streamlined security processes",
-        "Accelerated incident response through process optimization",
-        "Seamless integration with existing company systems",
-      ],
-      technologies: ["Cloud Security", "Policy Automation", "Incident Response", "Zscaler"],
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
-    },
-    {
       title: "DevSpark Hackathon Winner",
       category: "Hackathon Project",
       description: "Winning project at DevForge 24-hour Hackathon conducted by IEEE CS SYP.",
