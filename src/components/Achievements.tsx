@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Award, Trophy, Users } from "lucide-react";
-import achievement1 from "@/assets/achievement-1.jpg";
+import achievement1 from "@/assets/devforge-team.jpg";
 import achievement2 from "@/assets/achievement-2.jpg";
 import achievement3 from "@/assets/achievement-3.jpg";
 import achievement4 from "@/assets/achievement-4.jpg";
