@@ -19,6 +19,7 @@ const Navigation = () => {
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
+    { name: "Certifications", href: "#certifications" },
     { name: "Achievements", href: "#achievements" },
     { name: "Contact", href: "#contact" },
   ];
@@ -50,8 +51,11 @@ const Navigation = () => {
             <Button
               variant="default"
               className="bg-gradient-to-r from-secondary to-purple-600 hover:opacity-90 transition-opacity"
+              asChild
             >
-              Resume
+              <a href="/resume_poongulali.pdf" download="Poongulali_G_Resume.pdf">
+                Resume
+              </a>
             </Button>
           </div>
 
@@ -81,8 +85,11 @@ const Navigation = () => {
               <Button
                 variant="default"
                 className="bg-gradient-to-r from-secondary to-purple-600 hover:opacity-90 transition-opacity w-full"
+                asChild
               >
-                Resume
+                <a href="/resume_poongulali.pdf" download="Poongulali_G_Resume.pdf">
+                  Resume
+                </a>
               </Button>
             </div>
           </div>
